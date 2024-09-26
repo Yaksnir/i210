@@ -1,0 +1,29 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+.red{
+    background-color: red;
+}
+nav{
+    display: flex;
+    /*flex direction can change from row to column*/
+    flex-direction: column;
+    /*justify-content: move your elements horizontally*/
+    justify-content: space-between;
+    /*align-items move vertically*/
+    align-items: center;
+}
